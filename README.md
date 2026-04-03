@@ -50,6 +50,11 @@ This helps in:
 
 Best model selected based on performance metrics.
 
+## Web Application
+The project includes a Flask-based web interface where users can:
+	•	Input student details
+	•	Predict math score instantly
+
 ## Project Architecture
 Data → Preprocessing → Model Training → Model Saving → Web App → Prediction
 
@@ -82,10 +87,3 @@ mlproject/
 ├── requirements.txt
 ├── setup.py
 └── README.md
-
-
-## Web Application
-The project includes a Flask-based web interface where users can:
-	•	Input student details
-	•	Predict math score instantly
-
