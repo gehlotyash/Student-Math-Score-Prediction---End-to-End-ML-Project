@@ -53,8 +53,9 @@ Best model selected based on performance metrics.
 ## Project Architecture
 Data → Preprocessing → Model Training → Model Saving → Web App → Prediction
 
-## Project Structure
+### Project Structure
 
+```text
 mlproject/
 │
 ├── src/
@@ -81,6 +82,7 @@ mlproject/
 ├── requirements.txt
 ├── setup.py
 └── README.md
+
 
 ## Web Application
 The project includes a Flask-based web interface where users can:
